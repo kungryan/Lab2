@@ -53,9 +53,11 @@
                 </section>
                 <section class="meetingComments">
                     <h3>Meeting Comments</h3>
-                    <li><strong>Concern</strong>: What <em>kind</em> of stack?</li>
-                    <li><strong>Concern</strong>: What will our <em>team roles</em> be?</li>
-                    <li><strong>Concern</strong>: Potential time constraints</li>
+                    <ul>
+                        <li><strong>Concern</strong>: What <em>kind</em> of stack?</li>
+                        <li><strong>Concern</strong>: What will our <em>team roles</em> be?</li>
+                        <li><strong>Concern</strong>: Potential time constraints</li>
+                    </ul>
                 </section>
                 <section class="meetingMedia">
                     <h3>Meeting Media</h3>
@@ -80,7 +82,7 @@
                 <fieldset id="gameInfo">
                     <legend>Game Information</legend>
                     <label for="gameName">Game Name *:</label>
-                    <input type="text" name="gameName" id="gameName" placeholder="Celeste" required minlength="1" maxlength="32" required>
+                    <input type="text" name="gameName" id="gameName" placeholder="Celeste" minlength="1" maxlength="32" required>
                     <br>
                     <label for="gamePlatform">Platform:</label>
                     <select name="gamePlatform" id="gamePlatform">
@@ -91,7 +93,7 @@
                     </select>
                     <br>
                     <label for="gameGenre">Game Genre *:</label>
-                    <input list="genreList" id="gameGenre" name="gameGenre" placeholder="RPG" maxlength="32" requried>
+                    <input list="genreList" id="gameGenre" name="gameGenre" placeholder="RPG" maxlength="32">
                     <datalist id="genreList">
                         <option value="rpg">RPG</option>
                         <option value="action">Action</option>
